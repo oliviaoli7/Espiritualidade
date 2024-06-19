@@ -178,6 +178,7 @@ body:not(.page-edite) [hidden-delay].hidden-delay{display: none !important}
 
 
 section.float, header.float{position: sticky; top: 0px; z-index: 3000 !important}
+header.float{z-index: 9000 !important}
 /*section.float.float-on{position: fixed !important; top: 0px; z-index: 999 !important}*/
 
 
@@ -463,8 +464,8 @@ footer.padding{ padding :1em 0 !important}
 
 
 
-.header{  width: 100%; top: 0; left: 0;right: 0; white-space: nowrap;  z-index: 1990;  font-size: .8em;  max-height: auto !important; background-color: rgba(0, 0, 0, 0.24);}
-
+.header{  width: 100%; top: 0; left: 0;right: 0; white-space: nowrap;  z-index: 9990 !important;  font-size: .8em;  max-height: auto !important; background-color: rgba(0, 0, 0, 0.24);}
+/*1990*/
 
 header .centertop{padding: 5px 0; max-width: 95%; vertical-align:middle; min-height: 3em; font-size: 1em;  margin:2px auto; }
 header  .centertop.padding{padding:1em !important}
@@ -1231,7 +1232,7 @@ a.contact-float{position:fixed;  width: 50px; height: 50px; background: #000; bo
 
 .carousel-content{ display:flex; width:auto; gap:0px;position:relative; 
 overflow-x: scroll; scroll-snap-type: x mandatory; transition:.5s;  border-radius: inherit; z-index: 99; }
-.carousel-card{ min-width:25%; min-height:100px; transition:.5s;   transition:.5s; overflow: hidden; background-size: cover; display: block !important;background-position: center 0%;text-align: inherit;
+.carousel-card{ min-width:25%; min-height:100px; transition:.5s;   transition:.5s; overflow: hidden; background-size: cover; display: block !important;background-position: center 0%;text-align: inherit; position: relative;
   }
 .page-edite .carousel-card{overflow: visible !important;}
 .page-edite .carousel-card:hover{padding-bottom: 10px}
